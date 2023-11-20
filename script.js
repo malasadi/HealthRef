@@ -1,11 +1,3 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
-
 (() => {
     var de = (t, c) => () => (
         c || t((c = { exports: {} }).exports, c), c.exports
